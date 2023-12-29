@@ -20,8 +20,8 @@ const removeFromArray = function (array, ...args) {;
     // Method using forEach
     let retArr = [];
     array.forEach(item => {
-        const elementStays = !args.includes(item);
-        if (elementStays) {
+        const itemStays = !args.includes(item);
+        if (itemStays) {
             retArr.push(item);
         }
     });
