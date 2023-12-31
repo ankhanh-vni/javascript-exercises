@@ -17,13 +17,6 @@ const sumAll = function (fromNum, toNum) {
     return sum;
 
 };
-const input = "123";
-
-if (typeof input === "number" && !isNaN(input)) {
-    console.log("Input is a number");
-} else {
-    console.log("Input is not a number");
-}
 
 // Do not edit below this line
 module.exports = sumAll;
